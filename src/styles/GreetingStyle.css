@@ -1,5 +1,6 @@
 .greeting {
     margin: 5px;
+    padding: 5px;
 
     display: inline-grid;
     grid-template-columns: 1fr 0.4fr;
@@ -11,15 +12,17 @@
 
     padding: 10px;
     text-align: left;
-    box-shadow: 5px 5px 0 0;
+    box-shadow: -5px 5px 0 0;
 }
 
 .greeting-card p{
     font-size: 18px;
+    text-align: justify;
 }
 
 .profile-picture {
-    border: black solid 1px;
+    border-radius: 200px;
+    /*border: black solid 1px;*/
     background: url("../profile-picture.jpg") no-repeat center;
     background-size: cover;
 }
