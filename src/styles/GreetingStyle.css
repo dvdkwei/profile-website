@@ -8,9 +8,10 @@
 }
 
 .greeting-card {
-    border: black solid 1px;
-
     padding: 10px;
+    min-width: fit-content;
+
+    border: black solid 1px;
     text-align: left;
     box-shadow: -5px 5px 0 0;
 }
