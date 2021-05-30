@@ -12,7 +12,6 @@ class LandingPage extends React.Component {
                     <Greeting/>
                 </div>
             </header>
-
             <div className='page-body'>
                 <Navbar/>
             </div>
