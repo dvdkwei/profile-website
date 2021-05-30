@@ -1,0 +1,25 @@
+.nav-bar {
+    margin: auto auto 10px auto;
+    padding: 2px 5px 2px 5px;
+    height: 30px;
+
+    align-items: center;
+    display: inline-flex;
+    column-gap: 30px;
+}
+
+
+.nav-bar p{
+    font-size: 32px;
+    padding: 0 5px 0 5px;
+}
+
+
+.nav-bar p:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.1);
+    border-radius: 1px;
+    padding: 0 1rem 0 1rem;
+}

@@ -3,44 +3,30 @@
     grid-gap: 20px;
 }
 
-.nav-bar {
-    margin: 5px 0 0 0;
-    padding: 2px 5px 2px 5px;
-
-    height: 30px;
-    align-items: center;
-    /*justify-items: center;*/
-    display: inline-flex;
-    column-gap: 30px;
-}
-
-
-.nav-bar p{
-    font-size: x-large;
-    padding: 0 5px 0 5px;
-}
-
-
-.nav-bar p:hover{
-    background-color: black;
-    color: white;
-    cursor: pointer;
-    transform: scale(1.1);
-    border-radius: 1px;
-    padding: 0 1rem 0 1rem;
+header{
+    height: 85vh;
 }
 
 .header-image {
-    background: url("../header-image.jpg") no-repeat center;
-    background-position-x: right;
-    background-position-y: center;
+    background: url("../header-image.png") no-repeat center center fixed;
+    background-position-x: center;
     background-size: cover;
 
-    height: 350px;
+    height: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: start;
 }
+
 
 .page-body {
     /*border: black solid 2px;*/
-    margin: 10px;
+
     display: grid;
+    align-items: center;
+
+    padding: 10px 0 0 10px;
 }
+
+
+
