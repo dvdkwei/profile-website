@@ -1,26 +1,19 @@
-.greet {
-    display: inline-grid;
-    align-content: start;
-    justify-items: left;
-    grid-template-columns: 1fr 0.25fr;
-
-}
-
 .greeting {
-    padding-left: 30px;
     color: white;
-    text-align: left;
-    min-width: fit-content;
+    size: 8vw;
 }
 
 .greeting h1{
-    margin-bottom: auto;
-    font-size: 100px;
+    margin-bottom: 0;
+    font-size: 6.5em;
+
+    text-align: right;
 }
 
 .greeting p{
-    font-size: 30px;
-    text-align: justify;
+    margin-top: 0;
+    text-align: right;
+    font-size: 2em;
 }
 
 

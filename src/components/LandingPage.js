@@ -5,17 +5,18 @@ import Navbar from "./Navbar";
 
 class LandingPage extends React.Component {
     render() {
-        return(
-        <div className='landing-page'>
-            <header>
+        return (
+            <div className='landing-page'>
                 <div className='header-image'>
-                    <Greeting/>
+                    <div id='navbar'><Navbar/></div>
+                    <br/>
+                    <div id='greeting'><Greeting/></div>
+                    <br/>
                 </div>
-            </header>
-            <div className='page-body'>
-                <Navbar/>
+                {/*<div className='page-body'>*/}
+
+                {/*</div>*/}
             </div>
-        </div>
         )
     }
 }

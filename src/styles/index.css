@@ -1,10 +1,10 @@
 body {
   margin: 0;
-  font-family: 'Abhaya Libre', serif;
+  font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  min-width: 600px;
+  min-width: fit-content;
 }
 
 /*code {*/

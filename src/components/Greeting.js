@@ -4,11 +4,9 @@ import '../styles/GreetingStyle.css';
 class Greeting extends React.Component {
     render() {
         return (
-            <div className='greet'>
-                <div className='greeting'>
-                    <h1> Selamat Datang! &#129305;</h1>
-                    <p> Translated: Hello There!</p>
-                </div>
+            <div className='greeting'>
+                <h1> Selamat Datang!</h1>
+                <p> Hello There! I'm David, welcome to my website.</p>
             </div>
         );
     }
