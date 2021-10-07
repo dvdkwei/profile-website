@@ -5,8 +5,9 @@ class Greeting extends React.Component {
     render() {
         return (
             <div className='greeting'>
-                <h1> Selamat Datang!</h1>
-                <p> Hello There! I'm David, welcome to my website.</p>
+                <h1>David Kurniadi Weinardy</h1>
+                <p>a business information system student, so far</p>
+                <p>based in hamburg, germany</p>
             </div>
         );
     }

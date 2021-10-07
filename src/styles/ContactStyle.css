@@ -1,0 +1,43 @@
+.contact {
+    font-family: 'Merriweather', sans-serif;
+    height: 20vh;
+
+    /* box position */
+    display: grid;
+    grid-gap: 50px;
+    align-items: start;
+    justify-items: center;
+    margin-left: 50px;
+}
+
+.contact-box {
+    width: 600px;
+    /*padding-left: 20px;*/
+    z-index: 100;
+
+    display: grid;
+    grid-gap: 10px;
+    align-items: center;
+    justify-content: center;
+
+    /*border: 1px solid black;*/
+    border-radius: 5px;
+}
+
+.social-logos {
+    /*width: 100%;*/
+    align-content: center;
+    justify-content: center;
+
+    display: flex;
+    column-gap: 10px;
+}
+
+img {
+    cursor: pointer;
+    height: 50px;
+}
+
+h1, .social-logos {
+    margin: 0;
+}

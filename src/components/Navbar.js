@@ -3,11 +3,9 @@ import '../styles/NavbarStyle.css'
 const Navbar = () => {
     return (
         <div className='nav-bar'>
-            <p>about me</p>
-            <h2>&bull;</h2>
-            <p>projects</p>
-            <h2>&bull;</h2>
-            <p>i'm interested</p>
+            <a href={'#aboutme'}><p>about him</p></a>
+            <a href={'#projects'}><p>his projects</p></a>
+            <a href={'#contacts'}><p>contact him</p></a>
         </div>
     );
 }

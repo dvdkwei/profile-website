@@ -1,37 +1,81 @@
 .landing-page {
-    display: grid;
+    width: 90vw;
+    min-width: 1000px;
+}
+
+#prof-pic {
+    display: none;
+}
+
+.header {
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 10px 0 10px;
+    padding: 0 15px 0 15px;
+
 }
 
 .header-image {
-    background: url("../header-image.png") no-repeat center center fixed;
-    background-position-x: center;
+    margin: 0 0 0 100px;
+    background: url("../header-image.png") no-repeat right center fixed;
     background-size: cover;
 
     height: 100vh;
-    display: grid;
-    grid-template-rows: 0.2fr 1fr 1fr 0.3fr;
+    width: 100%;
 
     padding: 10px;
 }
 
-.header-image #navbar {
+#greeting {
     display: grid;
-    justify-content: start;
-}
+    justify-content: center;
+    align-content: center;
 
-.header-image #greeting {
-    display: grid;
     width: 100%;
-    justify-content: end;
+    height: 100vh;
 }
 
-.page-body {
-    /*border: black solid 2px;*/
+#menu {
+    min-width: 1000px;
 
-    display: grid;
-    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}
 
-    padding: 10px 0 0 10px;
+@media all and (max-width: 500px) {
+    .header {
+        margin: 0;
+        padding: 0;
+        row-gap: 20px;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #prof-pic {
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        width: auto;
+        height: 65vh;
+
+        margin-right: 60px;
+        margin-top: 30px;
+        border-radius: 20px;
+    }
+
+    .header-image {
+        display: none;
+    }
+
+    #greeting {
+        height: 70vh;
+    }
 }
 
 

@@ -1,0 +1,18 @@
+.nav-bar-sticky{
+    display: inline-flex;
+    margin: 0;
+    bottom: 0;
+}
+
+.nav-bar-sticky p{
+    padding: 0 20px 0 20px;
+    text-decoration: underline;
+    font-size: medium;
+
+}
+
+.nav-bar-sticky p:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}

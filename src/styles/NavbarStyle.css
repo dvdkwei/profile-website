@@ -1,26 +1,42 @@
 .nav-bar {
-    /*margin: auto 10px 10px 10px;*/
-    padding: 2px 5px 2px 5px;
+    position: sticky;
+    padding: 70px 10px 70px 0;
 
-    align-items: center;
-    display: inline-flex;
-    column-gap: 30px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 120px;
 
-    size: 2vw;
-    color: white;
+    color: black;
+
+    height: 100%;
+    min-width: 1100px;
+
+    text-align: center;
+    text-decoration: underline;
+
+    align-content: center;
+    justify-content: right;
+
+    z-index: 1;
 }
 
-.nav-bar p, h2{
-    font-size: 1.5em;
+.nav-bar p{
+    font-size: 1.1em;
     padding: 0 5px 0 5px;
+    transform: rotate(-90deg);
+    font-weight: bold;
+    background: white;
+    border-radius: 5px;
+    /*border: black 2px solid;*/
 }
 
 
 .nav-bar p:hover{
-    background-color: black;
-    color: white;
     cursor: pointer;
-    transform: scale(1.02);
-    transition-duration: 0.2s;
+    transform: scale(1.1) rotate(-90deg);
+    transition-duration: 0.1s;
     padding: 0 1rem 0 1rem;
+
+    font-weight: bolder;
+    text-decoration: underline;
 }

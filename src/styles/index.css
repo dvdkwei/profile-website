@@ -1,13 +1,9 @@
 body {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Merriweather', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  min-width: fit-content;
+  align-content: center;
+  min-width: 800px;
 }
-
-/*code {*/
-/*  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',*/
-/*    monospace;*/
-/*}*/

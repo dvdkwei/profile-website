@@ -1,11 +1,15 @@
 .greeting {
-    color: white;
-    size: 8vw;
+    color: black;
+    margin-left: 75px;
 }
 
 .greeting h1{
+    font-family: Merriweather, serif;
+
     margin-bottom: 0;
     font-size: 6.5em;
+    font-weight: bolder;
+    text-shadow: 0 2px slategrey;
 
     text-align: right;
 }
@@ -13,7 +17,15 @@
 .greeting p{
     margin-top: 0;
     text-align: right;
-    font-size: 2em;
+    font-size: 1.1em;
 }
 
+@media all and (max-width: 500px) {
+    .greeting{
+        margin-right: 50px;
+    }
 
+    .greeting p {
+        font-size: 1.2em;
+    }
+}
