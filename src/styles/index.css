@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: 'Merriweather', sans-serif;
@@ -6,4 +10,10 @@ body {
 
   align-content: center;
   min-width: 800px;
+}
+
+@media all and (max-width: 500px) {
+  html {
+    zoom: 0.4;
+  }
 }

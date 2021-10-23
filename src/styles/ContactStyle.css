@@ -41,3 +41,8 @@ img {
 h1, .social-logos {
     margin: 0;
 }
+
+h1 {
+    font-size: xx-large;
+    justify-self: center;
+}

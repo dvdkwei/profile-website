@@ -15,7 +15,7 @@ class Contact extends React.Component {
         return (
             <div className={'contact'}>
                 <div className={'contact-box'}>
-                    <h1>Interested? Please say &#128075;!</h1>
+                    <h1>Please say &#128075;!</h1>
                     <div className='social-logos'>
                         <img src={mail} alt={'mailto:david.kurniadi.weinardy@outlook.com'}
                              onClick={() => this.openInNewTab('mailto:david.kurniadi.weinardy@outlook.com')}/>
