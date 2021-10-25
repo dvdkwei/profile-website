@@ -6,4 +6,4 @@ made this project with HTML, mainly CSS, a bit of JavaScript and all of these th
 bootstrapped by REACT. 
 
 This website will be always under development as many aspects of my life will be too! Thanks for 
-visiting.
+visiting, and you may contact me anytime for further information.
