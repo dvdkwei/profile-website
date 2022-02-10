@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 import AboutMe from "./AboutMe";
 import Projects from "./Projects";
 import Contact from "./Contact";
-import profpic from '../profile-picture-1.png';
+import profPic from "../profile-picture-1.png";
 
 class LandingPage extends React.Component {
     render() {
@@ -20,7 +20,7 @@ class LandingPage extends React.Component {
                             <Greeting/>
                         </div>
                         <div className='header-image'/>
-                        <img src={profpic} alt={'profpic'} id={'prof-pic'}/>
+                        <img src={profPic} alt='profile' className={'prof-pic'}/>
                     </section>
                     <div className='page-body'>
                         <section id='aboutme'>
