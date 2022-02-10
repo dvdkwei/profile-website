@@ -1,6 +1,8 @@
 .landing-page {
     width: 90vw;
     min-width: 1000px;
+
+    z-index: 100;
 }
 
 #prof-pic {
@@ -40,6 +42,7 @@
 #menu {
     min-width: 1000px;
 
+    float: right;
     position: fixed;
     top: 0;
     width: 100vw;
@@ -48,7 +51,7 @@
 
 @media all and (max-width: 500px) {
     .header {
-        margin: 0;
+        margin: 50px 0 200px 0;
         padding: 0;
         row-gap: 20px;
     }

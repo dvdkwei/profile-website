@@ -14,7 +14,7 @@ class LandingPage extends React.Component {
                 <div id='menu'>
                     <Navbar/>
                 </div>
-                <div className='landing-page'>
+                <div>
                     <section className='header'>
                         <div id='greeting'>
                             <Greeting/>

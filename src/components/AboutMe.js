@@ -19,6 +19,7 @@ const AboutMe = () => {
                     <p>Nationality: Indonesian</p>
                     <p>Food: Ramen</p>
                     <p>Sport: Table Tennis</p>
+                    <p>Languages: <br/> Bahasa Indonesia, English, German, Javanese</p>
                 </div>
                 <div className='cards'>
                     <div className={'title'}>
@@ -27,8 +28,8 @@ const AboutMe = () => {
                     </div>
                     <p>Hamburg University of Applied Sciences - Business Information
                         Technology | ongoing </p>
-                    <p>Zero to Mastery Academy - Web Developer Online Course 2021 |
-                        ongoing</p>
+                    <p>Zero to Mastery Academy - Web Developer Online Course 2022 |
+                        completed</p>
                     <p>Studienkolleg Leibniz University Hanover | graduated in 2019</p>
                     <p>St. Louis 1 Catholic High School in Surabaya, ID | graduated in
                         2017</p>
@@ -38,7 +39,6 @@ const AboutMe = () => {
                         <img src={skills} alt={'skills'} id={'skills'}/>
                         <h1>Skills</h1>
                     </div>
-                    <p>Languages: <br/> Bahasa Indonesia, English, German, Javanese</p>
                     <p>Electronic Data Processing: <br/>
                         Microsoft Office (Word, Excel, Powerpoint), Photoshop, Figma</p>
                     <p>Programming languages: <br/>

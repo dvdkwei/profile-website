@@ -1,4 +1,4 @@
-.about-me-1-container{
+.about-me-1-container {
     display: inline-grid;
     grid-template-columns: 0.6fr 1.3fr;
     grid-gap: 30px;
@@ -9,14 +9,16 @@
 
     padding: 40px 0 60px 75px;
 
+    margin-bottom: 100px;
+
     /*border: 2px black solid;*/
 }
 
-.about-me-1-container img{
+.about-me-1-container img {
     height: auto;
     width: 100%;
 
-    border-radius: 3px ;
+    border-radius: 3px;
 }
 
 .cards-container {
@@ -53,7 +55,7 @@
     column-gap: 10px;
 }
 
-.cards img{
+.cards img {
     height: 35px;
     width: 35px;
 }
@@ -69,7 +71,7 @@ p {
     margin: 5px;
 }
 
-.generals p{
+.generals p {
     font-size: 1.2em;
 }
 
@@ -77,10 +79,11 @@ p {
     .about-me-1-container {
         display: flex;
 
-        padding: 0;
-        margin: 0 30px;
+        padding: 20px;
+        margin: 0 30px 100px 30px;
     }
-    .about-me-1-container .prof-pic{
+
+    .about-me-1-container .prof-pic {
         display: none;
     }
 
@@ -95,7 +98,38 @@ p {
         margin: 5px;
     }
 
-    .generals p{
+    .generals p {
+        font-size: 1.5em;
+    }
+}
+
+@media only screen /* for iphone mini 12*/
+and (device-width: 375px)
+and (device-height: 812px)
+and (-webkit-device-pixel-ratio: 3) {
+    .about-me-1-container {
+        display: grid;
+
+        padding: 0;
+        margin: 0 30px 150px 30px;
+    }
+
+    .about-me-1-container .prof-pic {
+        display: none;
+    }
+
+    h1 {
+        font-family: 'Merriweather', serif;
+        font-size: 2.5em;
+    }
+
+    p {
+        font-family: 'Merriweather', serif;
+        font-size: 1.3em;
+        margin: 5px;
+    }
+
+    .generals p {
         font-size: 1.5em;
     }
 }
