@@ -11,6 +11,8 @@
 
     align-items: center;
     justify-items: start;
+
+    z-index: 50;
 }
 
 .projects-container h1 {

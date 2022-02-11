@@ -24,6 +24,7 @@
     width: 100%;
 
     padding: 10px;
+    transform: scale(0.9);
 }
 
 #greeting {
@@ -39,6 +40,8 @@
 
 #menu {
     min-width: 1000px;
+
+    /*transform: scale(0.9);*/
 
     float: right;
     position: fixed;
@@ -59,7 +62,7 @@
         display: inline-grid;
         grid-template-columns: 1fr 1fr;
 
-        align-content: center;
+        align-items: center;
         justify-content: space-around;
     }
 
@@ -75,6 +78,8 @@
         display: block;
         width: 100%;
         height:auto;
+
+        border-radius: 10px;
     }
 
     .header-image {

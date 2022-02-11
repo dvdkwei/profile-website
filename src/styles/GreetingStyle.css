@@ -1,6 +1,10 @@
 .greeting {
     color: black;
     margin-left: 75px;
+
+    transform: scale(0.9);
+
+    z-index: 50;
 }
 
 .greeting h1{

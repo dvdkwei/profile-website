@@ -1,7 +1,7 @@
 import '../styles/Projects.css';
 import tableau from '../ezgif-6-b1490ea6528d.gif';
 import robo from '../ezgif-6-ecc129c8f1d3.gif';
-import list from '../ezgif-6-2be66d0fc98c.gif';
+import login from '../login.gif';
 
 const Projects = () => {
     return (
@@ -32,13 +32,12 @@ const Projects = () => {
                 </div>
             </div>
             <div className='project' id='project-3'>
-                <img src={list} alt={'list'}/>
+                <img src={login} alt={'list'}/>
                 <div id='project-text'>
                     <a href={'https://github.com/dvdkwei/crud-js'}>
-                        <h2>Shopping List Project</h2>
+                        <h2>Login Register Project</h2>
                     </a>
-                    <p>A simple data processing React Application which includes CRUD
-                        operations.</p>
+                    <p>A simple login and register persistent account UI with bcrypt as password encryptor.</p>
                 </div>
             </div>
         </div>

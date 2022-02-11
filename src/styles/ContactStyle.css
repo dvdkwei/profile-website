@@ -8,6 +8,8 @@
     align-items: start;
     justify-items: center;
     margin-left: 50px;
+
+    z-index: 50;
 }
 
 .contact-box {
