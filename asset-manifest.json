@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/profile-website/static/css/main.b13c2d64.chunk.css",
-    "main.js": "/profile-website/static/js/main.696a0f12.chunk.js",
-    "main.js.map": "/profile-website/static/js/main.696a0f12.chunk.js.map",
+    "main.js": "/profile-website/static/js/main.2857429a.chunk.js",
+    "main.js.map": "/profile-website/static/js/main.2857429a.chunk.js.map",
     "runtime-main.js": "/profile-website/static/js/runtime-main.21d4dab0.js",
     "runtime-main.js.map": "/profile-website/static/js/runtime-main.21d4dab0.js.map",
     "static/js/2.232dfcae.chunk.js": "/profile-website/static/js/2.232dfcae.chunk.js",
@@ -15,13 +15,13 @@
     "static/media/ezgif-6-b1490ea6528d.f1b221e9.gif": "/profile-website/static/media/ezgif-6-b1490ea6528d.f1b221e9.gif",
     "static/media/ezgif-6-ecc129c8f1d3.d8d08159.gif": "/profile-website/static/media/ezgif-6-ecc129c8f1d3.d8d08159.gif",
     "static/media/LandingPageStyle.css": "/profile-website/static/media/header-image.37a1d0a4.png",
-    "static/media/login.261a647f.gif": "/profile-website/static/media/login.261a647f.gif",
+    "static/media/login.bad097e3.gif": "/profile-website/static/media/login.bad097e3.gif",
     "static/media/profile-picture-1.4dee03ac.png": "/profile-website/static/media/profile-picture-1.4dee03ac.png"
   },
   "entrypoints": [
     "static/js/runtime-main.21d4dab0.js",
     "static/js/2.232dfcae.chunk.js",
     "static/css/main.b13c2d64.chunk.css",
-    "static/js/main.696a0f12.chunk.js"
+    "static/js/main.2857429a.chunk.js"
   ]
 }
