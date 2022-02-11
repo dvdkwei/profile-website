@@ -34,7 +34,7 @@ const Projects = () => {
             <div className='project' id='project-3'>
                 <img src={login} alt={'list'}/>
                 <div id='project-text'>
-                    <a href={'https://github.com/dvdkwei/crud-js'}>
+                    <a href={'https://github.com/dvdkwei/face-recognition-ui'}>
                         <h2>Login Register Project</h2>
                     </a>
                     <p>A simple login and register persistent account UI with bcrypt as password encryptor.</p>
