@@ -22,7 +22,7 @@ class Contact extends React.Component {
                         <img src={github} alt={'https://github.com/dvdkwei'}
                              onClick={() => this.openInNewTab('https://github.com/dvdkwei')}/>
                         <img src={link}
-                             alt={'https://www.linkedin.com/in/david-kurniadi-weinardy-01a7661a1/'}
+                             alt={'https://www.linkedin.com/in/david-kurniadi-weinardy/'}
                              onClick={() => this.openInNewTab('https://www.linkedin.com/in/david-kurniadi-weinardy-01a7661a1/')}/>
                         <img src={insta} alt={'https://www.instagram.com/dvdkwei/'}
                              onClick={() => this.openInNewTab('https://www.instagram.com/dvdkwei/')}/>
