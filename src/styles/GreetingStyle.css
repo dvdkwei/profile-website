@@ -11,7 +11,7 @@
 .greeting h1 {
   font-family: Merriweather, serif;
   margin-bottom: 0;
-  font-size: 6vw;
+  font-size: 7vw;
   font-weight: bolder;
   text-shadow: 0 2px slategrey;
   text-align: right;
@@ -31,13 +31,13 @@
 
   .greeting h1 {
     font-size: 4rem;
-    text-align: left;
+    text-align: center;
     margin-bottom: 1.5rem;
   }
 
   .greeting p {
     font-size: .8rem;
-    text-align: left;
+    text-align: center;
     margin-bottom: .2rem;
   }
 }

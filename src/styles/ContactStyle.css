@@ -1,9 +1,9 @@
 .contact {
-    height: 20vh;
     display: grid;
     align-items: start;
     justify-items: center;
     z-index: 50;
+    margin: 3rem 0;
 }
 
 .contact-box {
@@ -28,7 +28,7 @@
 
 img {
     cursor: pointer;
-    height: 50px;
+    height: 44px;
 }
 
 h1, .social-logos {

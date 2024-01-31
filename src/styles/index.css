@@ -22,6 +22,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  background-color: rgb(236, 252, 255);
 }
 
 a {
