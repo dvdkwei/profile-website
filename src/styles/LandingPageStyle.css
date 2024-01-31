@@ -30,7 +30,8 @@
   max-width: 430px;
 }
 
-#aboutme {
+#aboutme,
+#projects {
   display: flex;
   align-items: center;
   justify-content: center;

@@ -41,6 +41,7 @@ const AboutMe = () => {
             title={'Education'}
             image={edu}
             items={[
+              'White Label eCommerce - Frontend Developer | ongoing',
               'Hamburg University of Applied Sciences - Business Information Technology | ongoing',
               'Zero to Mastery Academy - Web Developer Online Course 2022 | completed',
               'Studienkolleg Leibniz University Hanover | graduated in 2019'

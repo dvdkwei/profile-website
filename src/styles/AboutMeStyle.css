@@ -10,6 +10,7 @@
 
 .about-me > p {
   font-style: italic;
+  margin: 2rem 0;
 }
 
 .about-me-container {
