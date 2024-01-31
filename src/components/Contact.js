@@ -1,10 +1,10 @@
 import React from "react";
 import "../styles/ContactStyle.css";
-import github from "../icons8-github-90.png";
-import insta from "../icons8-instagram-96.png";
-import link from "../icons8-linkedin-96.png";
-import face from "../icons8-facebook-90.png";
-import mail from "../icons8-email-96.png";
+import github from "../images/icons8-github-90.png";
+import insta from "../images/icons8-instagram-96.png";
+import link from "../images/icons8-linkedin-96.png";
+import face from "../images/icons8-facebook-90.png";
+import mail from "../images/icons8-email-96.png";
 
 class Contact extends React.Component {
     openInNewTab = (url) => {

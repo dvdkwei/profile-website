@@ -1,136 +1,76 @@
-.about-me-1-container {
-    display: inline-grid;
-    grid-template-columns: 0.6fr 1.3fr;
-    grid-gap: 30px;
-
-    height: 100vh;
-    justify-content: center;
-    align-content: center;
-
-    margin: 50px 0;
-
-    z-index: 50;
-
-    transform: scale(0.9);
-
-    /*border: 2px black solid;*/
+.about-me {
+  padding: 1rem;
+  max-width: 90%;
 }
 
-.about-me-1-container img {
-    height: 90vh;
+.about-me > h1 {
+  text-align: left;
+  font-size: 1.5rem;
+}
 
-    border-radius: 3px;
+.about-me > p {
+  font-style: italic;
+}
+
+.about-me-container {
+  height: 100vh;
+  z-index: 50;
+}
+
+.about-me-container img {
+  height: 90vh;
+  border-radius: 3px;
 }
 
 .cards-container {
-    height: auto;
-    width: 100%;
-
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-
-    /*border: 2px black solid;*/
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 .cards {
-    background-color: transparent;
-    width: 100%;
-    height: 100%;
-    padding: 10px;
-
-    display: grid;
-    /*grid-template-rows: 0.5fr 1fr;*/
-
-    align-content: start;
-
-    /*border: 1px black solid;*/
-    border-radius: 10px;
-    z-index: 100;
+  background-color: transparent;
+  max-width: 400px;
+  height: 100%;
+  padding: 10px;
+  display: grid;
+  align-content: start;
+  border-radius: 10px;
+  z-index: 100;
 }
 
 .title {
-    display: inline-flex;
-    align-items: center;
-    column-gap: 10px;
+  display: inline-flex;
+  align-items: center;
+  column-gap: 10px;
+  margin-bottom: .5rem;
+}
+
+.title h1 {
+  font-size: 1.2rem;
 }
 
 .cards img {
-    height: 35px;
-    width: 35px;
+  height: 25px;
+  width: 25px;
 }
 
-h1 {
-    font-family: 'Merriweather', serif;
-    font-size: 2em;
+.cards p {
+  font-size: 1rem;
+  margin: 5px;
 }
 
-p {
-    font-family: 'Merriweather', serif;
-    font-size: 1rem;
-    margin: 5px;
-}
+@media all and (max-width: 800px) {
+  .cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
 
-.generals p {
-    font-size: 1.2em;
-}
-
-@media all and (max-width: 500px) {
-    .about-me-1-container {
-        display: flex;
-
-        padding: 20px;
-        margin: 0 30px 100px 30px;
-    }
-
-    .about-me-1-container .prof-pic {
-        display: none;
-    }
-
-    h1 {
-        font-family: 'Merriweather', serif;
-        font-size: 2.5em;
-    }
-
-    p {
-        font-family: 'Merriweather', serif;
-        font-size: 1.3em;
-        margin: 5px;
-    }
-
-    .generals p {
-        font-size: 1.5em;
-    }
-}
-
-@media only screen /* for iphone mini 12*/
-and (device-width: 375px)
-and (device-height: 812px)
-and (-webkit-device-pixel-ratio: 3) {
-    .about-me-1-container {
-        display: grid;
-
-        padding: 0;
-        margin: 0 30px 150px 30px;
-    }
-
-    .about-me-1-container .prof-pic {
-        display: none;
-    }
-
-    h1 {
-        font-family: 'Merriweather', serif;
-        font-size: 2.5em;
-    }
-
-    p {
-        font-family: 'Merriweather', serif;
-        font-size: 1.3em;
-        margin: 5px;
-    }
-
-    .generals p {
-        font-size: 1.5em;
-    }
+  .about-me-container {
+    height: fit-content;
+  }
 }

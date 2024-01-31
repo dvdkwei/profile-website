@@ -1,36 +1,27 @@
 .contact {
-    font-family: 'Merriweather', sans-serif;
     height: 20vh;
-
-    /* box position */
     display: grid;
-    grid-gap: 50px;
     align-items: start;
     justify-items: center;
-    margin-left: 50px;
-
     z-index: 50;
 }
 
 .contact-box {
-    width: 600px;
-    /*padding-left: 20px;*/
     z-index: 100;
-
     display: grid;
     grid-gap: 10px;
     align-items: center;
     justify-content: center;
-
-    /*border: 1px solid black;*/
     border-radius: 5px;
 }
 
+.contact-box h1 {
+  text-align: center;
+}
+
 .social-logos {
-    /*width: 100%;*/
     align-content: center;
     justify-content: center;
-
     display: flex;
     column-gap: 10px;
 }
@@ -42,9 +33,4 @@ img {
 
 h1, .social-logos {
     margin: 0;
-}
-
-h1 {
-    font-size: xx-large;
-    justify-self: center;
 }

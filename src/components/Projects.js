@@ -1,12 +1,12 @@
 import '../styles/Projects.css';
-import tableau from '../ezgif-6-b1490ea6528d.gif';
-import robo from '../ezgif-6-ecc129c8f1d3.gif';
-import login from '../login.gif';
+import tableau from '../images/ezgif-6-b1490ea6528d.gif';
+import robo from '../images/ezgif-6-ecc129c8f1d3.gif';
+import login from '../images/login.gif';
 
 const Projects = () => {
     return (
         <div className='projects-container'>
-            <h1>His Projects</h1>
+            <h1>My Projects</h1>
             <div className='project' id='project-1'>
                 <img src={tableau} alt={'tableau'}/>
                 <div id='project-text'>

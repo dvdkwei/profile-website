@@ -2,10 +2,10 @@ import '../styles/NavbarStyle.css'
 
 const Navbar = () => {
     return (
-        <div className='nav-bar'>
-            <a href={'#aboutme'}><p>about him</p></a>
-            <a href={'#projects'}><p>his projects</p></a>
-            <a href={'#contacts'}><p>contact him</p></a>
+        <div className='nav-bar' id='menu'>
+            <a href={'#aboutme'}>about me</a>
+            <a href={'#projects'}>my projects</a>
+            <a href={'#contacts'}>contact</a>
         </div>
     );
 }
