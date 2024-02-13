@@ -34,7 +34,7 @@
 }
 
 .nav-bar a:hover {
-  font-weight: 900;
+  font-weight: 500;
 }
 
 @keyframes spawn-opacity {

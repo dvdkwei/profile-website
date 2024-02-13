@@ -1,7 +1,6 @@
 html {
   scroll-behavior: smooth;
   overflow-x: scroll;
-  font-family: 'Merriweather', serif !important;
   max-width: 100vw;
 }
 
@@ -11,7 +10,7 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Merriweather', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   position: relative;

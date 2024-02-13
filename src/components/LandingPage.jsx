@@ -5,18 +5,16 @@ import Navbar from "./Navbar";
 import AboutMe from "./AboutMe";
 import Projects from "./Projects";
 import Contact from "./Contact";
-import profPic from '../images/profile-picture-1.png';
+import profPic from '../images/profile_picture.png';
 
 const LandingPage = () => {
   const [isImageLoaded, setIsImageLoaded] = useState(false);
-
-
 
   return (
     <div className='landing-page'>
       <Navbar />
       <>
-        <section className='header'>
+        <div className='header'>
           <Greeting />
           <img
             src={profPic}
@@ -24,7 +22,7 @@ const LandingPage = () => {
             className={isImageLoaded ? 'prof-pic' : 'img-hide'}
             onLoad={() => setIsImageLoaded(true)}
           />
-        </section>
+        </div>
         <div className='page-body'>
           <section id='aboutme'>
             <AboutMe />

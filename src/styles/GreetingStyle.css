@@ -7,16 +7,15 @@
   width: 100%;
   height: 100vh;
   gap: .5rem;
+  animation: spawn-right .5s ease-out;
 }
 
 .greeting h1 {
-  font-family: Merriweather, serif;
   margin-bottom: 1rem;
   font-size: min(6vw, 5rem);
-  font-weight: bolder;
+  font-weight: bold;
   text-shadow: 0 2px slategrey;
   text-align: right;
-  animation: spawn-down .5s ease-out;
 }
 
 .greeting p {
@@ -44,13 +43,13 @@
   }
 }
 
-@keyframes spawn-down {
+@keyframes spawn-right {
   from {
     opacity: 0;
-    margin-bottom: 6rem;
+    transform: translateX(100px);
   }
   to {
     opacity: 1;
-    margin-bottom: 1rem;
+    transform: translateX(0);
   }
 }

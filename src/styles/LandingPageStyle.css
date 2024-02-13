@@ -8,7 +8,6 @@
 .header {
   display: flex;
   flex-direction: row;
-  gap: 3rem;
   width: 100%;
   height: 100vh;
   align-items: center;
@@ -19,7 +18,7 @@
   height: 80%;
   width: auto;
   border-radius: 10px;
-  animation: spawn .8s ease-out;
+  animation: spawn-left .7s ease-out;
 }
 
 .img-hide {
@@ -69,7 +68,13 @@
   }
 }
 
-@keyframes spawn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+@keyframes spawn-left {
+  from { 
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to { 
+    opacity: 1; 
+    transform: translateX(0);
+  }
 }

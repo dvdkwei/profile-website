@@ -4,7 +4,7 @@ import edu from '../images/icons8-education-90.png';
 import skills from '../images/icons8-book-and-pencil-100.png';
 import experience from '../images/icons8-gear-90.png';
 
-const Cards = ({ id, image, title, items }) => {
+const ProfileCards = ({ id, image, title, items }) => {
   return (
     <div className='cards'>
       <div className='title'>
@@ -33,19 +33,19 @@ const AboutMe = () => {
       </p>
       <div className="about-me-container">
         <div className={'cards-container'}>
-          <Cards
+          <ProfileCards
             id={'generals'}
             title={'Generals'}
             image={generals}
             items={[
               `Age: ${new Date().getFullYear() - 1999}`,
-              'Born: Febuary 1999',
+              'Born: February 1999',
               'Nationality: Indonesian',
               'Sport: Table Tennis, Bouldering, Futsal',
               'Languages: Bahasa Indonesia, English, German'
             ]}
           />
-          <Cards
+          <ProfileCards
             id={'education'}
             title={'Education'}
             image={edu}
@@ -55,7 +55,7 @@ const AboutMe = () => {
               'Studienkolleg Leibniz University Hanover | graduated in 2019'
             ]}
           />
-          <Cards
+          <ProfileCards
             id={'skills'}
             title={'Skills'}
             image={skills}
@@ -66,7 +66,7 @@ const AboutMe = () => {
               'Day-to-day: Excel, Figma, Jira'
             ]}
           />
-          <Cards
+          <ProfileCards
             id={'exp'}
             title={'Work Experiences'}
             image={experience}
