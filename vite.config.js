@@ -6,5 +6,6 @@ export default defineConfig({
     // Relative to the root
     outDir: 'dist',
   },
-  plugins: [react()]
+  plugins: [react()],
+  base: "/profile-website/"
 });

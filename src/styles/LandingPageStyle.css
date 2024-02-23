@@ -1,6 +1,11 @@
+.flex-column {
+  display: flex !important;
+  flex-direction: column;
+}
+
 .landing-page {
   width: 90%;
-  display: flex;
+  display: none;
   flex-direction: column;
   gap: .75rem;
 }
